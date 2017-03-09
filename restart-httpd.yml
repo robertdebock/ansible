@@ -1,5 +1,5 @@
 ---
-- hosts: homeservers
+- hosts: all
 
   tasks:
   - name: Restart Apache httpd
