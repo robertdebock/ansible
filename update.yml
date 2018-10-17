@@ -1,0 +1,8 @@
+- name: update software on hosts
+  hosts: all
+  become: no
+  gather_facts: no
+  
+  roles:
+    - role: robertdebock.bootstrap
+    - role: robertdebock.update
