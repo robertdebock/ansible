@@ -1,5 +1,7 @@
 ---
-- hosts: all
+- name: ping all servers
+  hosts: all
+
   tasks:
-    - name: Check that the server's alive
+    - name: ping machine
       action: ping

@@ -1,6 +1,0 @@
----
-- hosts: all
-
-  tasks:
-  - name: Restart Apache httpd
-    service: name=httpd state=restarted

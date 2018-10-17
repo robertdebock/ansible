@@ -1,6 +1,0 @@
----
-- hosts: all
-
-  tasks:
-  - name: Inform staff
-    debug: msg="Could not restart."
